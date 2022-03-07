@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="icon" href="images/logo.png">
+    <title>HAPPY CAKE</title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="images/logoHC.png" alt="logo">
+        <h1>HAPPY CAKE :3</h1>
+        <div class="menu">
+            <nav>
+              <span class="itemHead"><a href="index.html">INICIO</a></span>
+              <span class="itemHead"><a href="Contacto.html">CONTACTO</a></span>
+              <span class="itemHead"><a href="Formulario.html">CREA TU PASTEL</a></span>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="formuEnc">
+            <div class="cont">
+                <h3 class="tituloFormu">Coloca tus datos</h3>
+            </div>
+            <div class="cont">
+                <h3 class="tituloFormu">Personaliza tu pastel</h3>
+            </div>
+        </section>
+        <form action="">
+            <div class="formSec">
+                <label for="name">Nombre:</label><br>
+                <input id="name" type="text" name="name">  <br>
+                <label for="tel">Teléfono:</label><br>
+                <input id="tel" type="text" name="tel">  <br>
+                <label for="email">Correo:</label><br>
+                <input id="email" type="email" name="email">   <br> 
+                <label for="pastel">Descripción del pastel:</label><br>
+                <textarea id="pastel" type="textarea" name="pastel" ></textarea>  <br>
+            </div>
+            <div class="formP">
+                <h3 class="tituloFormuP">Elige los sabores</h3>
+                <input type="checkbox" id="sabor1" value="sabor1"> 
+                <label for="sabor1">Chocolate - $200.00</label><br>
+                <input type="checkbox" id="sabor2" value="sabor2"> 
+                <label for="sabor2">Fresa - $300.00</label><br>
+                <input type="checkbox" id="sabor3" value="sabor3"> 
+                <label for="sabor3">Vainilla - $200.00</label><br>
+                <input type="checkbox" id="sabor4" value="sabor4"> 
+                <label for="sabor4">Tres Leches - $350.00</label><br>
+                <input type="checkbox" id="sabor5" value="sabor5"> 
+                <label for="sabor5">Moka - $400.00</label><br>
+                <div class="contM"><p class="mens">Si elijes más de un sabor el precio se divide entre el número de sabores</p></div>
+            </div>
+            <div class="formP">
+                <h3 class="tituloFormuP">Agrega decoraciones</h3>
+                <input type="checkbox" id="decoracion1" value="decoracion1"> 
+                <label for="decoracion1">Merengue - $50.00</label><br>
+                <input type="checkbox" id="decoracion2" value="decoracion2"> 
+                <label for="decoracion2">Frutas - $75.00</label><br>
+                <input type="checkbox" id="decoracion3" value="decoracion3"> 
+                <label for="decoracion3">Fondant - $60.00</label><br>
+                <input type="checkbox" id="decoracion4" value="decoracion4"> 
+                <label for="decoracion4">Chispas de colores - $30.00</label><br>
+                <input type="checkbox" id="decoracion5" value="decoracion5"> 
+                <label for="decoracion5">Velas mágicas - $50.00</label><br><br>
+                <button>Enviar</button>
+            </div> 
+        </form>
+    </main>
+    
+</body>
+</html>
